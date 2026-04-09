@@ -1,0 +1,140 @@
+{
+  "companies": {
+    "Lighter Capital": {
+      "sector": "Alternative Lending",
+      "analysis": {
+        "company": "Lighter Capital",
+        "business_model": "Revenue-based financing platform providing non-dilutive capital to SaaS and tech startups based on recurring revenue metrics, using proprietary underwriting models to assess monthly recurring revenue predictability",
+        "lending_use_case": "Alternative credit assessment for tech startups using SaaS metrics (ARR, churn, growth rate) as primary underwriting signals instead of traditional credit scores, enabling loans against future revenue streams",
+        "target_fit": "Medium",
+        "why": "Provides novel underwriting signals from SaaS revenue data that Apollo could integrate into their credit decisioning APIs for tech lending verticals. Their revenue-based assessment models could enhance Apollo's underwriting engine for startup/SME segments, though limited to specific tech company demographics rather than broad market applicability",
+        "risks": [
+          "Highly concentrated in volatile tech startup segment creating portfolio concentration risk during market downturns",
+          "Revenue-based lending model untested in prolonged economic stress with potential for correlated defaults across portfolio",
+          "Limited regulatory framework for revenue-based financing could face sudden compliance changes affecting loan structuring"
+        ],
+        "opportunity_score": 6
+      },
+      "analysed_at": "2026-04-09T12:58:26.517020+00:00"
+    },
+    "SK Finance Limited": {
+      "sector": "SME Lending",
+      "analysis": {
+        "company": "SK Finance Limited",
+        "business_model": "NBFC providing digital lending solutions to SMEs through data-driven underwriting and streamlined loan origination processes",
+        "lending_use_case": "Apollo Finvest can leverage SK Finance's SME-focused underwriting models and origination infrastructure to power white-label lending products for other NBFCs and banks targeting the SME segment",
+        "target_fit": "High",
+        "why": "SK Finance has built proven SME underwriting algorithms and origination workflows that Apollo Finvest can package as infrastructure APIs - their transaction data access from SME borrowers and regulatory NBFC positioning provides immediate value for Apollo's lending infrastructure stack",
+        "risks": [
+          "SME segment concentration risk could impact underwriting model performance during economic downturns",
+          "RBI regulatory changes on digital lending could disrupt their core origination and disbursement processes",
+          "High NPA rates in SME lending could degrade the quality of underwriting signals provided through Apollo's infrastructure"
+        ],
+        "opportunity_score": 8
+      },
+      "analysed_at": "2026-04-09T12:58:56.343645+00:00"
+    },
+    "InCred Financial Services": {
+      "sector": "SME Lending",
+      "analysis": {
+        "company": "InCred Financial Services",
+        "business_model": "NBFC providing digital lending solutions to SMEs with focus on working capital loans, term loans, and invoice discounting through proprietary underwriting technology and alternative data sources",
+        "lending_use_case": "SME lending infrastructure partner offering pre-built underwriting models, GST-based cash flow analysis, and loan origination workflows specifically designed for small business credit assessment",
+        "target_fit": "High",
+        "why": "InCred's SME-focused underwriting engine with GST integration and business cash flow models provides Apollo Finvest ready-made credit decisioning APIs for the high-growth SME segment. Their existing NBFC license and RBI compliance framework offers regulatory positioning advantage, while their transaction data from SME lending creates valuable underwriting signals for Apollo's credit infrastructure platform",
+        "risks": [
+          "SME segment concentration risk during economic downturns leading to portfolio-wide stress",
+          "RBI's tightening digital lending guidelines could impact API-based lending partnerships",
+          "High dependency on GST data quality and government portal stability for underwriting accuracy"
+        ],
+        "opportunity_score": 8
+      },
+      "analysed_at": "2026-04-09T12:59:24.147132+00:00"
+    },
+    "FlexiLoans.com": {
+      "sector": "Small Business Lending",
+      "analysis": {
+        "company": "FlexiLoans.com",
+        "business_model": "Digital lending platform providing unsecured business loans to SMEs through automated underwriting and quick disbursement processes",
+        "lending_use_case": "FlexiLoans operates a direct lending model with proprietary underwriting algorithms for SME credit assessment, offering working capital loans, term loans, and revenue-based financing with ticket sizes from \u20b91L to \u20b910Cr",
+        "target_fit": "Medium",
+        "why": "FlexiLoans has developed SME-specific underwriting models and processed significant loan volumes, creating valuable credit performance datasets and risk scoring algorithms that Apollo could license. Their established borrower acquisition channels and regulatory compliance infrastructure could enhance Apollo's SME lending stack, particularly for NBFCs targeting the underbanked SME segment",
+        "risks": [
+          "High concentration in SME segment creates correlated default risk during economic downturns",
+          "Potential conflict as FlexiLoans operates own lending book rather than pure infra play",
+          "SME lending requires specialized collections and recovery processes that may not scale across other lending verticals"
+        ],
+        "opportunity_score": 6
+      },
+      "analysed_at": "2026-04-09T12:59:54.279386+00:00"
+    },
+    "emergent": {
+      "sector": "Payments & Transactions",
+      "analysis": {
+        "company": "emergent",
+        "business_model": "Insufficient information provided - 'emergent' with no description of actual business operations, revenue model, or specific payment/transaction services offered",
+        "lending_use_case": "Cannot determine specific payment integration opportunity without clear understanding of emergent's actual product, target market, or payment infrastructure capabilities",
+        "target_fit": "Low",
+        "why": "No viable assessment possible - lack of fundamental business details prevents evaluation of payment rails control, transaction volume potential, checkout conversion impact, or merchant acquisition synergies with Razorpay's core infrastructure",
+        "risks": [
+          "Complete information gap prevents proper due diligence on regulatory compliance, fraud management capabilities, or settlement infrastructure quality",
+          "Unknown business model creates inability to assess transaction volume scalability or revenue predictability for partnership structuring",
+          "Lack of clarity on actual payment operations prevents evaluation of technical integration complexity or merchant overlap conflicts"
+        ],
+        "opportunity_score": 1
+      },
+      "analysed_at": "2026-04-09T13:00:45.474657+00:00"
+    },
+    "volopay": {
+      "sector": "Payments & Transactions",
+      "analysis": {
+        "company": "volopay",
+        "business_model": "B2B expense management platform providing corporate cards, automated expense reporting, and multi-currency payment infrastructure for businesses across Asia-Pacific",
+        "lending_use_case": "B2B payment rails integration where PhonePe's UPI infrastructure could power Volopay's domestic vendor payments, employee reimbursements, and corporate-to-supplier transactions, leveraging PhonePe's settlement speed and lower MDR rates for high-volume corporate payment flows",
+        "target_fit": "Medium",
+        "why": "Volopay processes significant B2B payment volume that could benefit from UPI rails for domestic transactions, creating merchant stickiness through embedded finance. Their corporate customer base represents high-value, recurring transaction volume that aligns with PhonePe's merchant acquiring strategy and could reduce dependency on traditional banking payment channels",
+        "risks": [
+          "Corporate payment preferences may favor traditional banking channels over UPI for compliance and audit trail requirements",
+          "Volopay's multi-currency focus conflicts with UPI's domestic-only limitation, reducing integration scope",
+          "B2B settlement requirements often need longer payment terms which conflicts with UPI's instant settlement model"
+        ],
+        "opportunity_score": 6
+      },
+      "analysed_at": "2026-04-09T13:56:14.858911+00:00"
+    },
+    "snapmint": {
+      "sector": "Lending & Credit",
+      "analysis": {
+        "company": "snapmint",
+        "business_model": "Buy-now-pay-later (BNPL) platform offering instant credit for e-commerce purchases with EMI options, primarily targeting millennial consumers for electronics and lifestyle products",
+        "lending_use_case": "Point-of-sale credit origination with real-time underwriting for consumer durables, generating transaction-level repayment data and merchant partnership distribution channels",
+        "target_fit": "Medium",
+        "why": "Snapmint generates high-frequency transaction data from POS lending that could enhance Apollo's underwriting models, plus their merchant network provides loan distribution channels. However, their consumer-focused BNPL model may not align with Apollo's likely focus on B2B/MSME lending infrastructure",
+        "risks": [
+          "High unsecured consumer credit exposure in a rate-sensitive environment with potential NPA spikes",
+          "Regulatory uncertainty around BNPL guidelines and RBI's evolving digital lending framework",
+          "Concentration risk in discretionary spending categories vulnerable to economic downturns"
+        ],
+        "opportunity_score": 6
+      },
+      "analysed_at": "2026-04-09T13:40:07.483746+00:00"
+    },
+    "fatakpay": {
+      "sector": "Payments & Transactions",
+      "analysis": {
+        "company": "fatakpay",
+        "business_model": "Unable to determine - insufficient public information available about fatakpay's business operations, payment infrastructure, or service offerings",
+        "lending_use_case": "Cannot assess specific payment gateway integration opportunity without clarity on fatakpay's actual payment rails, transaction volumes, or merchant base",
+        "target_fit": "Low",
+        "why": "No verifiable information about fatakpay's payment infrastructure, transaction processing capabilities, or merchant network that would indicate strategic value for Razorpay's payment gateway services",
+        "risks": [
+          "Unverified entity with no clear payment processing track record or regulatory compliance status",
+          "Potential brand confusion or reputational risk given similar naming convention to established payment players",
+          "No visible transaction volume or merchant base to justify integration investment"
+        ],
+        "opportunity_score": 2
+      },
+      "analysed_at": "2026-04-09T13:59:47.865528+00:00"
+    }
+  }
+}
