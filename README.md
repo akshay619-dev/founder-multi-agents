@@ -270,3 +270,20 @@ Replace `call_claude()` body with the Anthropic SDK (commented example in the co
 **Add new notification channels:**
 
 Follow the pattern of `send_to_telegram()` / `send_email()` — add a new function, wire it into the delivery agent thread.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
+
+## 📄 License
+
+This project is licensed under the MIT License
+
+
+
+
+
